@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Password Generator App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Password Generator Using JS</h1>
+    <div class="password-box">
+      <button class="btn btn-primary btn-sm" id="copy"><i class="fas fa-fw fa-copy"></i> Copy</button>
+      <input type="text" id="password-value">
+      <span style="margin-left: 30px;" >Password goes here</span>
+    </div>
+
+    <div class="input-group">
+      <label for="password-length">Password length</label>
+      <input type="text" id="password-length">
+    </div>
+
+    <div class="input-group">
+      <label for="password-uppercase">Include Uppercase</label>
+      <input type="checkbox" id="password-uppercase">
+    </div>
+
+    <div class="input-group">
+      <label for="password-lowercase">Include Lowercase</label>
+      <input type="checkbox" id="password-lowercase">
+    </div>
+
+    <div class="input-group">
+      <label for="password-number">Include numbers</label>
+      <input type="checkbox" id="password-number">
+    </div>
+
+    <div class="input-group">
+      <label for="password-symbols">Include Special Characters</label>
+      <input type="checkbox" id="password-symbols">
+    </div>
+
+    <button id="gen" class="generate btn btn-primary">Generate Password</button>
+
+  </div>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
