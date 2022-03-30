@@ -1,0 +1,19 @@
+// Variables
+$main-font: 'Roboto', sans-serif;
+$body-bg: #f9f9f9;
+$main-color: green;
+
+// Resets
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $main-font;
+  background-color: $body-bg;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
